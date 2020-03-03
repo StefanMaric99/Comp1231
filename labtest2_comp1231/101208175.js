@@ -32,10 +32,11 @@
             arr.forEach(function(i, index) {
                 str += i;
                 if (index != (arr.length - 1)) {
-                    str += ',';
+                    str += '   ';
                 };
             });
             s=str;
             return str;
         }
-        console.log(arrayToString(initArr));
+        console.log(arrayToString(initArr,));
+
